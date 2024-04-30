@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(121, 119, 119);
+}
+.encabezado {
+  padding-top: 50px;
+  margin: 0 0 10px;
+  text-align: center;
+  background-image: url(./img/cabeza.jpg);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.encabezado nav {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.521);
+  text-align: center;
+  border: 3px solid rgba(0, 0, 0, 0.432);
+  color: rgb(217, 185, 247);
+  box-sizing: border-box;
+}
+.menuSup ul {
+  list-style: none;
+  text-align: center;
+}
+.menuSup li {
+  display: inline-block;
+}
+.menuSup a {
+  text-decoration: none;
+  color: rgb(217, 185, 247);
+  font-weight: 700;
+  padding: 2.3rem;
+  size: 1.4rem;
+}
+.tit h1 {
+  margin-top: 4.1em;
+  background: rgba(0, 0, 0, 0.521);
+  text-align: center;
+  border: 3px solid rgba(0, 0, 0, 0.432);
+  color: white;
+}
+h2 {
+  background-color: rgba(0, 0, 0, 0.521);
+  padding: 4px;
+  text-align: center;
+}
+.cuerpo1 {
+  width: 99%;
+  height: 35vh;
+  margin-top: 10px;
+  background-image: url(./img/codigo.jpg);
+  background-size: 100%;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.cuerpo2 {
+  background-image: url(./img/setup2.jpg);
+  background-size: 100%;
+  background-position: center;
+  margin-top: 10px;
+  width: 99%;
+  height: 35vh;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.cuerpo3 {
+  background-image: url(./img/iconos.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  width: 99%;
+  height: 35vh;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.cuerpo4 {
+  background-color: black;
+  background-image: url(./img/setup.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10px;
+  width: 99%;
+  height: 35vh;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.contenedor {
+  margin-left: 3px;
+  width: 50%;
+  float: left;
+}
+.descri {
+  color: rgb(32, 32, 32);
+  padding: 10px;
+  height: 140vh;
+  width: 44%;
+  border-radius: 6px;
+  float: right;
+}
+.cards {
+  background-color: rgb(121, 119, 119);
+  padding: 20px 10px 15px 15px;
+  margin: 2em 0;
+  border-left: 3px rgb(107, 107, 107) solid;
+  border-top: 3px rgba(245, 245, 245, 0.808) solid;
+  border-radius: 6px;
+  box-shadow: 0 0 30px 10px black;
+  box-sizing: border-box;
+}
+p {
+  font-size: 16px;
+}
